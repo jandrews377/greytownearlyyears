@@ -136,7 +136,7 @@ body {
 /* *****************HOME**************** */
 
 .main {
-  background: url("../img/home/background_placeholder.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   min-height: 100vh;
 }
 
@@ -196,8 +196,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  padding-top: 8.75rem;
-  padding-bottom: 8.75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .about__image {
