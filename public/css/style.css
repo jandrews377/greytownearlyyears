@@ -185,10 +185,10 @@ body {
   background: url("../img/home/hero_placeholder.jpg") center / cover no-repeat;
 }
 
-/* ************ABOUT**************** */
+/* ************TEAM**************** */
 
-.main_about {
-  background: url("../img/about/background_placeholder.png") center / cover no-repeat;
+.main_team {
+  background: url("../img/team/background_placeholder.png") center / cover no-repeat;
 }
 
 .about__container {
@@ -228,8 +228,8 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.outro_about {
-  background: url("../img/about/hero_placeholder.jpg") center / cover no-repeat;
+.outro_team {
+  background: url("../img/team/hero_placeholder.jpg") center / cover no-repeat;
 }
 
 /* **************SERVICES**************** */
@@ -301,6 +301,27 @@ body {
 .outro_services {
   background: url("../img/services/hero_placeholder.jpg") center / cover no-repeat;
 }
+
+
+/* ************POLICIES**************** */
+
+.outro_policies {
+  background: url("../img/policies/hero_placeholder.jpg") center / cover no-repeat;
+}
+
+
+/* ************ENROLMENT**************** */
+
+.outro_enrolment {
+  background: url("../img/enrolment/hero_placeholder.jpg") center / cover no-repeat;
+}
+
+/* ************CONTACT**************** */
+
+.outro_contact {
+  background: url("../img/contact/hero_placeholder.jpg") center / cover no-repeat;
+}
+
 
 /* ************TESTIMONIAL**************** */
 
