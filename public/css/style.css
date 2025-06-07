@@ -130,7 +130,7 @@ body {
 
 /* ****************PAGES**************** */
 .page__main {
-  padding-bottom: 160px;
+  padding-bottom: 100px;
 }
 
 /* *****************HOME**************** */
@@ -419,11 +419,11 @@ body {
 }
 
 .main__container_pages {
-  padding-top: 300px;
+  padding-top: 275px;
 }
 
 .main_pages {
-  min-height: 676px !important;
+  min-height: 500px !important;
 }
 
 /* ****************SERVICES PAGE**************** */
@@ -1393,6 +1393,74 @@ iframe {
   }
 
   .resources__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.policies__container {
+  padding-top: 8.75rem;
+  padding-bottom: 8.75rem;
+}
+
+.policies__title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.policies__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 72.624rem;
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}
+
+.policies__item {
+  background: #fff;
+  border: 2px solid #e1e4eb;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.policies__item:hover {
+  border-color: #8CD600;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.policies__subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #303a4d;
+}
+
+.policies__description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.policies__link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #8CD600;
+  color: #303a4d;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.policies__link:hover {
+  background-color: #303a4d;
+  color: #fff;
+}
+
+@media (max-width: 62.6875rem) {
+  .policies__grid {
     grid-template-columns: 1fr;
   }
 }
