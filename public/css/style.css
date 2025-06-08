@@ -137,7 +137,7 @@ body {
 
 .main {
   background: url("../img/hero.jpg") center / cover no-repeat;
-  min-height: 100vh;
+  min-height: 500px;
 }
 
 .main__container {
@@ -311,6 +311,12 @@ body {
 
 
 /* ************ENROLMENT**************** */
+
+
+.main_enrolment {
+  background: url("../img/enrolment/placeholder_about.jpg") center / cover no-repeat;
+}
+
 
 .outro_enrolment {
   background: url("../img/enrolment/hero_placeholder.jpg") center / cover no-repeat;
