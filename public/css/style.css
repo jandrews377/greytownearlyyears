@@ -528,9 +528,8 @@ body {
   flex-direction: column;
   align-items: start;
   row-gap: 32px;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #e1e4eb;
+  /* margin-bottom: 40px;
+  padding-bottom: 40px; */
 }
 
 .connect-contact__item {
