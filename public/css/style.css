@@ -136,7 +136,7 @@ body {
 /* *****************HOME**************** */
 
 .main {
-  background: url("../img/hero_placeholder.jpg") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   min-height: 500px;
   position: relative;
 }
@@ -217,7 +217,7 @@ body {
 }
 
 .outro_home {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -247,11 +247,6 @@ body {
 }
 
 /* ************TEAM**************** */
-
-.main_team {
-  background: url("../img/team/background_placeholder.png") center / cover no-repeat;
-  position: relative;
-}
 
 .main_team::before {
   content: '';
@@ -301,7 +296,7 @@ body {
 }
 
 .outro_team {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -332,10 +327,6 @@ body {
 
 /* **************SERVICES**************** */
 
-.main_services {
-  background: url("../img/services/background_placeholder.png") center / cover no-repeat;
-  position: relative;
-}
 
 .main_services::before {
   content: '';
@@ -409,7 +400,7 @@ body {
 }
 
 .outro_services {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -441,7 +432,7 @@ body {
 /* ************POLICIES**************** */
 
 .outro_policies {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -473,7 +464,7 @@ body {
 /* ************ENROLMENT**************** */
 
 .main_enrolment {
-  background: url("../img/enrolment/placeholder_about.jpg") center / cover no-repeat;
+  background: url("../img/enrolment/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -489,7 +480,7 @@ body {
 }
 
 .outro_enrolment {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -520,10 +511,6 @@ body {
 
 /* ************CONTACT**************** */
 
-.main_contact {
-  background: url("../img/contact/background_placeholder.png") center / cover no-repeat;
-  position: relative;
-}
 
 .main_contact::before {
   content: '';
@@ -537,7 +524,7 @@ body {
 }
 
 .outro_contact {
-  background: url("../img/hero_footer.png") center / cover no-repeat;
+  background: url("../img/hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -574,22 +561,153 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 8.75rem;
-  padding-bottom: 8.75rem;
+  padding-top: 6.125rem;
+  padding-bottom: 6.125rem;
 }
 
 .testiomonial__caption {
-  margin-bottom: 4rem;
+  margin-bottom: 2.8rem;
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 .testimonial__title {
-  margin-bottom: 4rem;
-  font-size: 2rem;
+  margin-bottom: 2.8rem;
+  font-size: 2.8rem;
   max-width: 40.75rem;
   line-height: 136%;
   font-weight: 500;
+}
+
+/* Carousel Styles */
+.testimonial__carousel {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.testimonial__slides {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #f8f9fa;
+  padding: 2.1rem 2rem;
+  min-height: 210px;
+}
+
+.testimonial__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial__slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+.testimonial__content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.testimonial__quote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #303a4d;
+  margin-bottom: 2rem;
+  font-style: italic;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.testimonial__quote::before {
+  content: '"';
+  font-size: 3rem;
+  color: #8CD600;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  font-family: serif;
+}
+
+.testimonial__quote::after {
+  content: '"';
+  font-size: 3rem;
+  color: #8CD600;
+  position: absolute;
+  bottom: -2rem;
+  right: -1rem;
+  font-family: serif;
+}
+
+/* Controls */
+.testimonial__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial__prev,
+.testimonial__next {
+  background: #8CD600;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #303a4d;
+}
+
+.testimonial__prev:hover,
+.testimonial__next:hover {
+  background: #303a4d;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.testimonial__prev:disabled,
+.testimonial__next:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Indicators */
+.testimonial__indicators {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.testimonial__indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #8CD600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.testimonial__indicator.active,
+.testimonial__indicator:hover {
+  background: #8CD600;
+  transform: scale(1.2);
 }
 
 .item-testimonial__image {
@@ -746,9 +864,6 @@ body {
 
 /* ****************CONTACT PAGE****************/
 
-.main_contact {
-  background: url("../img/contact/background_placeholder.png") center / cover no-repeat;
-}
 
 .contact__container {
   display: flex;
@@ -1623,6 +1738,46 @@ iframe {
 
   .testiomonial__caption {
     margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  /* Carousel responsive styles */
+  .testimonial__carousel {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .testimonial__slides {
+    padding: 1.4rem 1rem;
+    min-height: 175px;
+  }
+
+  .testimonial__quote {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .testimonial__quote::before {
+    font-size: 2rem;
+    top: -0.5rem;
+    left: -0.5rem;
+  }
+
+  .testimonial__quote::after {
+    font-size: 2rem;
+    bottom: -1.5rem;
+    right: -0.5rem;
+  }
+
+  .testimonial__controls {
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .testimonial__prev,
+  .testimonial__next {
+    width: 40px;
+    height: 40px;
   }
 
   .outro__container {
