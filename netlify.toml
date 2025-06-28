@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/img/logo-medium.jpg"
+  to = "/.netlify/images/?url=/img/logo-medium.jpg&fit=contain&w=130"
+  status = 200
+
+[[redirects]]
+  from = "/img/logo-small.jpg"
+  to = "/.netlify/images/?url=/img/logo-medium.jpg&fit=contain&w=100"
+  status = 200
