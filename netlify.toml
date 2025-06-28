@@ -15,37 +15,37 @@
 
 [[redirects]]
   from = "/img/home/20250520_135728.jpg"
-  to = "/.netlify/images/?url=/img/home/20250520_135728.jpg&q=100&fit=cover&w=552"
+  to = "/.netlify/images/?url=/img/home/20250520_135728.jpg&q=100&fit=contain&w=552"
   status = 200
 
 [[redirects]]
   from = "/img/home/environment.jpg"
-  to = "/.netlify/images/?url=/img/home/environment.jpg&q=100&fit=cover&w=360"
+  to = "/.netlify/images/?url=/img/home/environment.jpg&q=100&fit=contain&w=360"
   status = 200
 
 [[redirects]]
   from = "/img/home/relationships.jpg"
-  to = "/.netlify/images/?url=/img/home/relationships.jpg&q=100&fit=cover&w=360"
+  to = "/.netlify/images/?url=/img/home/relationships.jpg&q=100&fit=contain&w=360"
   status = 200
 
 [[redirects]]
   from = "/img/home/learners.jpg"
-  to = "/.netlify/images/?url=/img/home/learners.jpg&q=100&fit=cover&w=360"
+  to = "/.netlify/images/?url=/img/home/learners.jpg&q=100&fit=contain&w=360"
   status = 200
 
 [[redirects]]
   from = "/img/home/user.png"
-  to = "/.netlify/images/?url=/img/home/user.png&q=100&fit=cover&w=64"
+  to = "/.netlify/images/?url=/img/home/user.png&q=100&fit=contain&w=64"
   status = 200
 
 [[redirects]]
   from = "/img/team/learners.jpg"
-  to = "/.netlify/images/?url=/img/team/learners.jpg&q=100&fit=cover&w=552"
+  to = "/.netlify/images/?url=/img/team/learners.jpg&q=100&fit=contain&w=552"
   status = 200
 
 [[redirects]]
   from = "/img/enrolment/image.png"
-  to = "/.netlify/images/?url=/img/enrolment/image.png&q=100&fit=cover&w=552"
+  to = "/.netlify/images/?url=/img/enrolment/image.png&q=100&fit=contain&w=552"
   status = 200
 
 [[redirects]]
