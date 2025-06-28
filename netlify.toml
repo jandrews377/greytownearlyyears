@@ -5,5 +5,70 @@
 
 [[redirects]]
   from = "/img/logo-small.jpg"
- to = "/.netlify/images/?url=/img/logo.jpg&q=100&fit=contain&w=100"
+  to = "/.netlify/images/?url=/img/logo.jpg&q=100&fit=contain&w=100"
+  status = 200
+
+[[redirects]]
+  from = "/img/logo.jpg"
+  to = "/.netlify/images/?url=/img/logo.jpg&q=100&fit=contain&w=130"
+  status = 200
+
+[[redirects]]
+  from = "/img/home/20250520_135728.jpg"
+  to = "/.netlify/images/?url=/img/home/20250520_135728.jpg&q=100&fit=cover&w=552"
+  status = 200
+
+[[redirects]]
+  from = "/img/home/environment.jpg"
+  to = "/.netlify/images/?url=/img/home/environment.jpg&q=100&fit=cover&w=360"
+  status = 200
+
+[[redirects]]
+  from = "/img/home/relationships.jpg"
+  to = "/.netlify/images/?url=/img/home/relationships.jpg&q=100&fit=cover&w=360"
+  status = 200
+
+[[redirects]]
+  from = "/img/home/learners.jpg"
+  to = "/.netlify/images/?url=/img/home/learners.jpg&q=100&fit=cover&w=360"
+  status = 200
+
+[[redirects]]
+  from = "/img/home/user.png"
+  to = "/.netlify/images/?url=/img/home/user.png&q=100&fit=cover&w=64"
+  status = 200
+
+[[redirects]]
+  from = "/img/team/learners.jpg"
+  to = "/.netlify/images/?url=/img/team/learners.jpg&q=100&fit=cover&w=552"
+  status = 200
+
+[[redirects]]
+  from = "/img/enrolment/image.png"
+  to = "/.netlify/images/?url=/img/enrolment/image.png&q=100&fit=cover&w=552"
+  status = 200
+
+[[redirects]]
+  from = "/img/contact/phone.svg"
+  to = "/.netlify/images/?url=/img/contact/phone.svg&q=100&fit=contain&w=24"
+  status = 200
+
+[[redirects]]
+  from = "/img/contact/email.svg"
+  to = "/.netlify/images/?url=/img/contact/email.svg&q=100&fit=contain&w=24"
+  status = 200
+
+[[redirects]]
+  from = "/img/contact/address.svg"
+  to = "/.netlify/images/?url=/img/contact/address.svg&q=100&fit=contain&w=24"
+  status = 200
+
+[[redirects]]
+  from = "/img/contact/fb.svg"
+  to = "/.netlify/images/?url=/img/contact/fb.svg&q=100&fit=contain&w=24"
+  status = 200
+
+[[redirects]]
+  from = "/img/contact/map.png"
+  to = "/.netlify/images/?url=/img/contact/map.png&q=100&fit=contain&w=545"
   status = 200
