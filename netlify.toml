@@ -4,11 +4,11 @@
   status = 200
 
 [[redirects]]
-  from = "/img/logo-small.jpg"
-  to = "/.netlify/images/?url=/img/logo.jpg&q=100&fit=contain&w=100"
+  from = "/img/home/20250520_135728.jpg"
+  to = "/.netlify/images/?url=/img/home/20250520_135728.jpg&q=100&fit=contain&w=552"
   status = 200
 
 [[redirects]]
-  from = "/img/home/20250520_135728.jpg"
-  to = "/.netlify/images/?url=/img/home/20250520_135728.jpg&q=100&fit=contain&w=552"
+  from = "/img/logo-small.jpg"
+  to = "/.netlify/images/?url=/img/logo.jpg&q=100&fit=contain&w=100"
   status = 200
