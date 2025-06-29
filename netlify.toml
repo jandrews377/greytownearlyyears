@@ -1,4 +1,4 @@
 [[redirects]]
   from = "img/20250520_135728.jpg"
-  to = "/.netlify/images/?url=/img/20250520_135728.jpg&q=85&fit=contain&w=552"
+  to = "/.netlify/images/?url=img/20250520_135728.jpg&q=85&fit=contain&w=552"
   status = 200
