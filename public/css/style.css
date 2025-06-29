@@ -99,7 +99,7 @@ body {
 }
 
 .menu__link.active {
-  border-bottom: 3px solid #8CD600;
+  border-bottom: 3px solid #21B82F;
   color: #303a4d;
   padding-bottom: 2px;
   margin-bottom: -2px;
@@ -116,7 +116,7 @@ body {
 }
 
 .actions-header__button {
-  background-color: #8CD600 !important;
+  background-color: #21B82F !important;
   color: #303a4d !important;
   border: 2px solid #303a4d;
   font-weight: 600;
@@ -633,7 +633,7 @@ body {
 .testimonial__quote::before {
   content: '"';
   font-size: 3rem;
-  color: #8CD600;
+  color: #21B82F;
   position: absolute;
   top: -1rem;
   left: -1rem;
@@ -643,7 +643,7 @@ body {
 .testimonial__quote::after {
   content: '"';
   font-size: 3rem;
-  color: #8CD600;
+  color: #21B82F;
   position: absolute;
   bottom: -2rem;
   right: -1rem;
@@ -661,7 +661,7 @@ body {
 
 .testimonial__prev,
 .testimonial__next {
-  background: #8CD600;
+  background: #21B82F;
   border: none;
   border-radius: 50%;
   width: 48px;
@@ -698,7 +698,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #8CD600;
+  border: 2px solid #21B82F;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -706,7 +706,7 @@ body {
 
 .testimonial__indicator.active,
 .testimonial__indicator:hover {
-  background: #8CD600;
+  background: #21B82F;
   transform: scale(1.2);
 }
 
@@ -762,7 +762,7 @@ body {
 }
 
 .outro__button:hover {
-  background-color: #8CD600;
+  background-color: #21B82F;
   color: #303a4d;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -1642,7 +1642,7 @@ iframe {
     left: -100%;
     width: 100%;
     height: 100%;
-    padding: 9.375rem 0.938rem 1.875rem 0.938rem;
+    padding: 14.375rem 0.938rem 1.875rem 0.938rem;
     overflow: auto;
     flex-direction: column;
     row-gap: 5rem;
@@ -1654,7 +1654,7 @@ iframe {
     top: 0;
     left: -100%;
     width: 100%;
-    min-height: 5.75rem;
+    min-height: 9.75rem;
     background-color: #fff;
     border-bottom: 1px solid #000;
     z-index: 2;
@@ -1874,7 +1874,7 @@ iframe {
 }
 
 .policies__item:hover {
-  border-color: #8CD600;
+  border-color: #21B82F;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
@@ -1895,7 +1895,7 @@ iframe {
 .policies__link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: #8CD600;
+  background-color: #21B82F;
   color: #303a4d;
   text-decoration: none;
   border-radius: 30px;
